@@ -1,5 +1,4 @@
 # rot13
-Two small deciphering application for rot13. One is a command line app built in Ruby with tests and the other is in JavaScript.
+A small command line app to decode rot13. Built in Ruby and using Test Driven Development.
 
-To run the command line application open the repo in the terminal
-and type `./rot13`. To run the tests type `rake`.
+To run the command line application open the repo in the terminal and type `./rot13`. To run the tests type `rake`.
