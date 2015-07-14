@@ -7,4 +7,10 @@ class TestRot13 < Minitest::Unit::TestCase
     expected = "Brennan"
     assert_equal expected, actual
   end
+
+  def test_sad_path
+    assert_raises(ArgumentError) do
+      Rot13.cypher("")
+    end
+  end
 end

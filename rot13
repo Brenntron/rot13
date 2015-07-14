@@ -1,3 +1,7 @@
 #!/usr/bin/env ruby
 require_relative 'lib/rot13'
 # This file is for I/O. Logic is in the rot13 file.
+
+puts "Hi! Put in the passage you want decoded or encoded."
+passage = gets.chomp
+puts Rot13.cypher(passage)
